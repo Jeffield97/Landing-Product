@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+:root {
+  font-family: Manrope;
+}
+.title {
+  color: #000;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 48px */
+  text-transform: capitalize;
+  padding-bottom: 24px;
+}
+
+.subtitle {
+  color: #4d5254;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 24px */
+  text-transform: capitalize;
+}
+
+.green-circle {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  fill: #85bf55;
+  stroke-width: 2px;
+  stroke: #85bf55;
+  background-color: #85bf55;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-circle {
+  fill: #2c7ef8;
+  stroke: #2c7ef8;
+  background-color: #2c7ef8;
+}
+
+.blue-stroke {
+  background-color: transparent;
+  border: 2px solid #2c7ef8;
+}
+.icon-text-white {
+  color: #ffffff;
+}
+
+.icon-text-blue {
+  color: #2c7ef8;
+}
+
+.past-step {
+  color: #000;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 22px */
+  text-transform: capitalize;
+}
+.past-step-bold {
+  font-weight: 700;
+}
+
+/* FOOTER */
+.text-footer {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  text-transform: lowercase;
+}
+/* TESTIMONIAL */
+.text-testimonial-name {
+  color: #333;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 14px */
+}
+.text-testimonial-verified {
+  color: #5bb59a;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 14.4px */
+}
+.text-testimonial-body {
+  color: #4d5254;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+/* TEXT PRODUCT ANNOUNCEMENT */
+.text-product-announcement {
+  color: #000;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 44.8px */
+  text-transform: capitalize;
+}
+
+.text-product-announcement-blue {
+  color: #2c7ef8;
+}
+
+/* TEXT PRODUCT NAME */
+.text-product-name {
+  color: #000;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+  text-transform: capitalize;
+}
+.text-price {
+  color: #969696;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: strikethrough;
+  text-transform: capitalize;
+}
+.text-price-2 {
+  color: #2c7ef8;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Manrope;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 30.8px */
+  text-transform: capitalize;
+}
+
+/* TEXT STOCK */
+.text-stock {
+  color: #37465a;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+/* DESCRIPTION ITEMS */
+.text-description {
+  color: #4d5254;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+
+/* DISCOUNT*/
+.text-discount {
+  color: #000;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+
+/* BUTTON */
+.text-button {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+/* PAYMENT INFO */
+.text-payment {
+  color: #4d5254;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+  text-transform: capitalize;
+}
+
+/* NO THANKS */
+.text-no-thanks {
+  color: #f82c2c;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+/* WARRANTY */
+.text-warranty {
+  color: #4d5254;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
